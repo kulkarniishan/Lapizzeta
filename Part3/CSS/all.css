@@ -85,7 +85,6 @@ background-color: #F96A6A ;
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 40%;
   font-variant: small-caps;
 
 }
@@ -146,7 +145,7 @@ footer img{
   margin: 0% 2%;
 }
 
-@media (min-width:0px){
+@media screen and (min-width:0px){
   .container-pasta div{
     display: block;
     border:1px #ccc solid;
@@ -180,7 +179,7 @@ footer img{
 }
 
 }
-@media (min-width:600px){
+@media screen and (min-width:480px){
   .container-pasta{
     display:flex;
     flex-wrap:wrap;
@@ -196,7 +195,7 @@ footer img{
     width: 70%;
   }
 }
-  @media (min-width:900px){
+  @media screen and (min-width:768px){
     .container-pasta div{
       width: 27%;
     }
@@ -213,7 +212,7 @@ footer img{
     }
   }
 
-    @media (min-width:1200px){
+    @media screen and (min-width:1024px){
       .container-pasta div{
         width: 20%;
       }
